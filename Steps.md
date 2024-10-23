@@ -7,7 +7,7 @@ SCL          Serial clock          5                GPIO 3 / SCL
 Enable I2C Interface: sudo  raspi-config
 Update: sudo  apt-get update
 Upgrade: sudo  apt-get upgrade
-Python Module: sudo  apt-get install build-essential python3-dev  python3-smbs git
+Python Module: sudo  apt-get install build-essential python3-dev  python3-smbus git
 AdaFruit:  git clone https://github.com/adafruit/Adafruit_Python_ADS1x15.git
 CD to AdaFruit: cd Adafruit_Python_ADS1x15
 Setup File: sudo  python3  setup.py   install
