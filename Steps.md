@@ -4,7 +4,9 @@ VDD          Power Supply          1                  -
 SDA            Data bits           3                GPIO 2/ SDA
 SCL          Serial clock          5                GPIO 3 / SCL
 
-Enable I2C Interface: sudo  raspi-config
+Enable I2C Interface: sudo  raspi-config  ----Reboot system
+
+
 Update: sudo  apt-get update
 Upgrade: sudo  apt-get upgrade
 Python Module: sudo  apt-get install build-essential python3-dev  python3-smbus git
